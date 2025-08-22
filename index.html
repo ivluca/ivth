@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ivth</title>
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.png">
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Federant&family=Noto+Serif+JP:wght@200..900&family=Noto+Serif+KR:wght@200..900&family=Noto+Serif+SC:wght@200..900&display=swap"
+        rel="stylesheet">
+    <!-- Style -->
+    <style>
+        .federant-font {
+            font-family: "Federant", serif;
+            font-weight: 400;
+        }
+
+        .noto-serif-jp {
+            font-family: "Noto Serif JP", serif;
+        }
+
+        .eb-garamond {
+            font-family: "EB Garamond", serif;
+            font-size: 21px;
+        }
+
+        .noto-serif-kr {
+            font-family: "Noto Serif KR", serif;
+        }
+
+        .noto-serif-sc {
+            font-family: "Noto Serif SC", serif;
+        }
+
+        .noto-serif-jp,
+        .noto-serif-kr,
+        .noto-serif-sc,
+        .eb-garamond {
+            font-optical-sizing: auto;
+            font-weight: 600;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #ffffff;
+            color: #262626;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 20px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #000000;
+                color: #ffffff;
+            }
+
+            p {
+                color: #a8a8a8;
+            }
+        }
+
+        .error-container {
+            max-width: 1000px;
+            width: 100%;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.5;
+            color: #737373;
+            margin-bottom: 8px;
+            transition: color 0.3s ease;
+        }
+
+        .link {
+            color: #0095f6;
+            text-decoration: none;
+            font-weight: 400;
+        }
+
+        .link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            p {
+                font-size: 14px;
+            }
+
+            .eb-garamond {
+                font-size: 15px;
+            }
+        }
+
+        .explore-btn {
+            display: inline-block;
+            margin: 20px 10px 0 0;
+            padding: 12px 28px;
+            background-color: #7c5a2b;
+            color: #f5e6c8;
+            font-size: 15px;
+            font-family: "Federant", serif;
+            letter-spacing: 1px;
+            border: 2px solid #5a4320;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            text-decoration: none;
+        }
+
+        .explore-btn:hover {
+            background-color: #5a4320;
+            color: #fff4dc;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="error-container">
+        <p class="federant-font">Error 404: Energy not found. Please try again after coffee.</p>
+        <p class="eb-garamond">Lỗi 404: Không tìm thấy năng lượng. Vui lòng thử lại sau khi uống cà phê.</p>
+        <p class="federant-font">Erreur 404: Énergie introuvable. Veuillez réessayer après un café.</p>
+        <p class="federant-font">Fehler 404: Energie nicht gefunden. Bitte nach dem Kaffee erneut versuchen.</p>
+        <p class="federant-font">Error 404: Energía no encontrada. Por favor, inténtalo después del café.</p>
+        <p class="federant-font">Errore 404: Energia non trovata. Riprova dopo il caffè.</p>
+        <p class="federant-font">Ошибка 404: Энергия не найдена. Попробуйте еще раз после кофе.</p>
+        <p class="noto-serif-sc">错误404：未找到能量。请喝咖啡后重试。</p>
+        <p class="noto-serif-jp">エラー404：エネルギーが見つかりません。コーヒーの後でもう一度お試しください。</p>
+        <p class="noto-serif-kr">오류 404: 에너지를 찾을 수 없습니다. 커피를 마신 후 다시 시도하십시오.</p>
+        <p class="federant-font">ข้อผิดพลาด 404: ไม่พบพลังงาน กรุณาลองใหม่หลังดื่มกาแฟ</p>
+        <p class="federant-font">خطأ 404: لم يتم العثور على الطاقة. يرجى المحاولة مرة أخرى بعد القهوة.</p>
+        <p class="federant-font">त्रुटि 404: ऊर्जा नहीं मिली। कॉफी के बाद फिर कोशिश करें।</p>
+        <p class="federant-font">Error 404: Energi tidak ditemukan. Silakan coba lagi setelah minum kopi.</p>
+        <p class="federant-font">Erro 404: Energia não encontrada. Tente novamente após o café.</p>
+        <a href="https://www.facebook.com/thanh.lvann" target="_blank" class="explore-btn">thanh.lvann</a>
+        <a href="https://www.instagram.com/w.justluca" target="_blank" class="explore-btn">w.justluca</a>
+        <a href="https://www.instagram.com/lvt.archive" target="_blank" class="explore-btn">lvt.archive</a>
+    </div>
+</body>
+
+</html>
